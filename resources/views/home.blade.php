@@ -8,13 +8,12 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    @if (session('status'))
-                        <div class="alert alert-success">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    You are logged in!
+                  <ul>
+                        <li>Menu... means he can see menu</li>
+                        <li>Bar... means he can see bar</li>
+                        <li>Title... means he can see title</li>
+                        <li>Hello... means he can see hello</li>
+                  </ul>
                 </div>
             </div>
         </div>
